@@ -72,8 +72,9 @@ print(Z)
 `hint: reshape`
 
 ```python
-nz = np.nonzero([1,2,0,0,4,0])
-print(nz)
+mat = np.arange(0,9)
+mat = mat.reshape((3,3))
+print(mat)
 ```
 #### 10. Find indices of non-zero elements from [1,2,0,0,4,0] (★☆☆)
 `hint: np.nonzero`
